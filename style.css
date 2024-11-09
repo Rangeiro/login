@@ -26,6 +26,7 @@
 }
 
 .login{
+    display: block;
     width: 100%;
 }
 
@@ -51,6 +52,10 @@ button{
     color: black;
     border-radius: 20px;
 }
+#btn1{
+    background: transparent;
+    border: 1px solid white;
+}
 
 #social-media{
     height: 20%;
@@ -72,3 +77,108 @@ button{
     margin-top: 10px;
     cursor: pointer;
 }
+
+.form{
+    height: 65vh;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 35px 35px 0 0;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    animation-duration: 0.5s;
+    animation-name: cima;
+}
+#sign-in{
+    display: none;
+}
+#sign-up{
+    display: none;
+}
+
+@keyframes cima{
+    from {transform: translateY(100%);} 
+}
+
+form{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    height: 40px;
+    width: 80%;
+    max-width: 500px;
+    background: transparent;
+    color: black;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+label{
+    width: 80%;
+    max-width: 500px;
+    font-weight: 600;
+    color: #b81736;
+}
+.forgot{
+    width: 80%;
+    max-width: 500px;
+    font-weight: 600;
+    text-align: end;
+    margin-bottom: 15px;
+
+}
+
+.submit{
+    background-image: linear-gradient(to right, #b81736, #2d1837);
+    color: white;
+}
+
+.dont-have{
+    width: 100%;
+    text-align: end;
+    padding-right: 15%;
+    margin-bottom: 30px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.msg{
+    width: 80%;
+    max-width: 500px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    animation-name: baixo;
+    animation-duration: 1s;
+}
+
+.msg h1 {
+    font-size: 40px;
+}
+
+@keyframes baixo{
+    from{transform: translateY(-200%);}
+}
+#msg1, #msg2{
+    display: none;
+}
+
+
+
+
+
+
+
+
