@@ -90,6 +90,9 @@ button{
     justify-content: space-between;
     animation-duration: 0.5s;
     animation-name: cima;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 1;
 }
 #sign-in{
     display: none;
